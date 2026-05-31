@@ -1,0 +1,86 @@
+{
+  "nodes": {
+    "ds4music": {
+      "inputs": {
+        "ds4music-src": "ds4music-src",
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1780235832,
+        "narHash": "sha256-aHI6AEujbuAb8PUZP3zIgfceSwtn1GEpbCEgaP+tz14=",
+        "ref": "main",
+        "rev": "d04234591ba6f550f2b0d7da37607e1022c064ce",
+        "revCount": 16,
+        "submodules": true,
+        "type": "git",
+        "url": "ssh://git@github.com/manushanga/ds4music.git"
+      },
+      "original": {
+        "ref": "main",
+        "submodules": true,
+        "type": "git",
+        "url": "ssh://git@github.com/manushanga/ds4music.git"
+      }
+    },
+    "ds4music-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1780228840,
+        "narHash": "sha256-yMH8fQ1cf8y2QACF5lR9SELtA8/VzVTDJ69K4Rpyqpw=",
+        "ref": "master",
+        "rev": "77fa687a79d35fdf5093727e8cc7e10cf580f773",
+        "revCount": 15,
+        "submodules": true,
+        "type": "git",
+        "url": "ssh://git@github.com/manushanga/ds4music.git"
+      },
+      "original": {
+        "ref": "master",
+        "rev": "77fa687a79d35fdf5093727e8cc7e10cf580f773",
+        "submodules": true,
+        "type": "git",
+        "url": "ssh://git@github.com/manushanga/ds4music.git"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1779796641,
+        "narHash": "sha256-ZsIrKmhp4vbBXoXXmR/tBXA/UCsAQiJL9vsgZEduhVY=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "25f538306313eae3927264466c70d7001dcea1df",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-25.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1779796641,
+        "narHash": "sha256-ZsIrKmhp4vbBXoXXmR/tBXA/UCsAQiJL9vsgZEduhVY=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "25f538306313eae3927264466c70d7001dcea1df",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-25.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "ds4music": "ds4music",
+        "nixpkgs": "nixpkgs_2"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
