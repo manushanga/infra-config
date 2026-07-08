@@ -81,11 +81,27 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1779796641,
-        "narHash": "sha256-ZsIrKmhp4vbBXoXXmR/tBXA/UCsAQiJL9vsgZEduhVY=",
+        "lastModified": 1782847189,
+        "narHash": "sha256-twXPFqFsrrY5r28Zh7Homgcp2gUMBgQ6WDS98Q/3xFI=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "25f538306313eae3927264466c70d7001dcea1df",
+        "rev": "b6018f87da91d19d0ab4cf979885689b469cdd41",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-25.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_3": {
+      "locked": {
+        "lastModified": 1782847189,
+        "narHash": "sha256-twXPFqFsrrY5r28Zh7Homgcp2gUMBgQ6WDS98Q/3xFI=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b6018f87da91d19d0ab4cf979885689b469cdd41",
         "type": "github"
       },
       "original": {
@@ -99,7 +115,47 @@
       "inputs": {
         "ds4music": "ds4music",
         "home-manager": "home-manager",
-        "nixpkgs": "nixpkgs_2"
+        "nixpkgs": "nixpkgs_2",
+        "shoppingList": "shoppingList"
+      }
+    },
+    "shoppingList": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_3",
+        "shoppinglist-src": "shoppinglist-src"
+      },
+      "locked": {
+        "lastModified": 1783233498,
+        "narHash": "sha256-BbCHM1LLPRNXSANl+05JcfdfkzKiheiCKpySrJpdpQs=",
+        "ref": "main",
+        "rev": "8fcc5f8fd6174e7459cc5b303ac57248d7176a83",
+        "revCount": 23,
+        "submodules": true,
+        "type": "git",
+        "url": "ssh://git@github.com/manushanga/shoppinglist.git"
+      },
+      "original": {
+        "ref": "main",
+        "submodules": true,
+        "type": "git",
+        "url": "ssh://git@github.com/manushanga/shoppinglist.git"
+      }
+    },
+    "shoppinglist-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1783232406,
+        "narHash": "sha256-DT8J3YTaNof06qgcZ79HVgDpnRjUbvwcLJasjymSDOc=",
+        "ref": "refs/heads/main",
+        "rev": "689e98515f17ba73687c4265affee30375cd3191",
+        "revCount": 22,
+        "type": "git",
+        "url": "ssh://git@github.com/manushanga/shoppinglist.git"
+      },
+      "original": {
+        "rev": "689e98515f17ba73687c4265affee30375cd3191",
+        "type": "git",
+        "url": "ssh://git@github.com/manushanga/shoppinglist.git"
       }
     }
   },
